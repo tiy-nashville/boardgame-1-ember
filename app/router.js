@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('game-1');
+  this.route('monopoly');
+  this.route('life');
 });
 
 export default Router;
