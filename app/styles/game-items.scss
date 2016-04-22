@@ -1,0 +1,61 @@
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: 1rem;
+}
+
+.sorry {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.game-logo__sorry {
+  max-width: 65%;
+}
+
+.game-info__sorry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 240px;
+}
+
+.monopoly {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-logo__monopoly {
+  width: 65%;
+}
+
+.game-info__monopoly {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+}
+
+.life {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-logo__life {
+  width: 65%;
+}
+
+.game-info__life {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-left: 1.5rem;
+}
