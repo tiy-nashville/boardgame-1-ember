@@ -27,6 +27,11 @@ body {
   flex-basis: calc(100% / 3);
   // min-width: 15rem;
   flex-grow: 1;
+  padding: $gutter;
+}
+
+.column:first-of-type {
+  flex-grow: 2;
 }
 
 .game {
