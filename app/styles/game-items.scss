@@ -27,6 +27,17 @@ body {
   justify-content: space-between;
 }
 
+.game-info__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  margin-left: 0.5rem;
+}
+
 .game-logo__monopoly {
   width: 100%;
 }
