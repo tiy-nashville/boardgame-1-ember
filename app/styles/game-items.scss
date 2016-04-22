@@ -1,3 +1,6 @@
+body {
+  background: #e1eef3;
+}
 .container {
   margin: 0 auto;
 }
@@ -7,14 +10,14 @@
   margin: 1rem;
 }
 
-.sorry {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+.grid-item {
+  width: 30%;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .game-logo__sorry {
-  max-width: 65%;
+  width: 100%;
 }
 
 .game-info__sorry {
@@ -22,16 +25,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 240px;
-}
-
-.monopoly {
-  display: flex;
-  flex-direction: column;
 }
 
 .game-logo__monopoly {
-  width: 65%;
+  width: 100%;
 }
 
 .game-info__monopoly {
@@ -39,16 +36,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 90%;
-}
-
-.life {
-  display: flex;
-  flex-direction: column;
 }
 
 .game-logo__life {
-  width: 65%;
+  width: 100%;
 }
 
 .game-info__life {
@@ -56,6 +47,4 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 90%;
-  margin-left: 1.5rem;
 }
