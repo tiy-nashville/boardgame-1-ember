@@ -8,7 +8,8 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('scrabble');
   this.route('life');
-  this.route('cardsAgainstHumanity');
+  this.route('cards-against-humanity');
+  this.route('clue');
 });
 
 export default Router;
