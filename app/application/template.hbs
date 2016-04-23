@@ -1,4 +1,4 @@
-{{!-- <div class="container">
+<div class="container">
   <div class="row">
     <div class="top-nav">
       <h2 class="site-name">Game Labs</h2>
@@ -12,9 +12,11 @@
     <form class="login-form" {{action login model on="submit"}}>
       <h3 class="login-form__label">Username</h3>
       <p class="form-field">{{input type="text" placeholder="Username" value=model.userName}}</p>
-      <h3 class="login-form__label">Email</h3>
-      <p class="form-field">{{input type="password" placeholder="Password" value=model.password}}</p>
-      <button class="login-form__button">Login</button>
+      <h3 class="login-form__label">Number of Players</h3>
+      <p class="form-field">{{input type="playerNumber" placeholder="playerNumber" value=model.playerNumber}}</p>
+      <h3 class="login-form__label">Game Rules</h3>
+      <p class="form-field">{{input type="gameRules" placeholder="gameRules" value=model.gameRules}}</p>
+      <button class="submit__button">Submit</button>
     </form>
   </div>
 </div>
@@ -30,6 +32,6 @@
   index();
   // const toggleNav = require(`toggle-nav`);
   // toggleNav();
-</script> --}}
+</script>
 
 {{outlet}}
