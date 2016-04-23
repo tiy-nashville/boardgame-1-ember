@@ -5,6 +5,7 @@
 .row {
   display: flex;
   margin: 1rem;
+  flex-wrap: wrap;
 }
 
 .grid-item {
@@ -13,11 +14,11 @@
   padding: 1rem;
 }
 
-.game-logo__sorry {
+.game-logo {
   width: 100%;
 }
 
-.game-info__sorry {
+.game-info {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,26 +34,4 @@
 
 .fa {
   margin-left: 0.5rem;
-}
-
-.game-logo__monopoly {
-  width: 100%;
-}
-
-.game-info__monopoly {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.game-logo__life {
-  width: 100%;
-}
-
-.game-info__life {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
 }

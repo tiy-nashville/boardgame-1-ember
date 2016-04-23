@@ -10,6 +10,7 @@
 .site-name {
   padding-left: 1rem;
   background: #02baf2;
+  color: #e1eef3;
 }
 
 .top-nav__right {
@@ -21,15 +22,17 @@
 .fa-plus {
   padding-right: 1.5rem;
   background: #02baf2;
+  color: #e1eef3;
 }
 
 .login-button {
   font-size: 16px;
   width: 5rem;
-  -webkit-box-shadow: 0 5 #f3bc65;
-  box-shadow: 0 5 #f3bc65;
+  -webkit-box-shadow: 0 5 #cc0000;
+  box-shadow: 0 5 #cc0000;
   top: 7px;
   font-size: 16px;
-  background: #fad46b;
-  border-color: #fad46b;
+  background: #f84545;
+  border-color: #f84545;
+  color: #e1eef3;
 }
