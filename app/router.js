@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('life');
   this.route('cards-against-humanity');
   this.route('clue');
+  this.route('login');
 });
 
 export default Router;
