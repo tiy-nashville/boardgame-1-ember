@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('scrabble');
   this.route('cah');
   this.route('add-game');
+  this.route('checkout');
 });
 
 export default Router;
