@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('clue');
   this.route('scrabble');
   this.route('cah');
+  this.route('add-game');
 });
 
 export default Router;
