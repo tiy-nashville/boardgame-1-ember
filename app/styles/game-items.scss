@@ -14,8 +14,10 @@
   padding: 1rem;
 }
 
-.game-logo {
+.game-logo__home {
   width: 100%;
+  cursor: auto;
+  margin-bottom: -0.5rem;
 }
 
 .game-info {
@@ -23,6 +25,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.game-name {
+  color: #364347;
 }
 
 .game-info__left {

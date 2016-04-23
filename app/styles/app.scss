@@ -2,12 +2,19 @@
 @import 'game-items';
 @import 'game-page';
 
+$font-family: "SSJunior";
 
 * {
-  font-family: Roboto;
-  background: #e1eef3;
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 body {
   margin: 0;
+  font-family: 'SourceSansPro';
+  font-weight: 400;
+  font-style: normal;
+
+  background: #e1eef3;
 }
