@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  width: 30%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.game-logo__home {
+  width: 100%;
+  cursor: auto;
+  margin-bottom: -0.5rem;
+  box-shadow: 0 2px 5px #364347;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-name {
+  color: #364347;
+}
+
+.game-info__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  margin-left: 0.5rem;
+}

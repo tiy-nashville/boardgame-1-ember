@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   background: #02baf2;
+<<<<<<< HEAD
   border-bottom: 1px solid #a88cd5;
 }
 
@@ -28,4 +29,73 @@
   background: #3eb5ac;
   border-color: #3eb5ac;
   color: white;
+=======
+  box-shadow: 0 2px 5px #fad46b;
+}
+
+.site-name {
+  margin-left: 1rem;
+  padding: 5px;
+  background-color: #02baf2;
+  color: #e1eef3;
+  cursor: auto;
+  text-shadow: 0 2px 5px #5e696d;
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.top-nav__right {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  padding-right: 1rem;
+  background: transparent;
+}
+
+.login-button {
+  border: 1px solid transparent;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 7px 15px 7px 15px;
+  text-transform: uppercase;
+  line-height: 1.6;
+
+  -webkit-box-shadow: 0 5px #cc0000;
+  box-shadow: 0 5px #cc0000;
+  top: 7px;
+  font-size: 16px;
+  background: #f84545;
+  border-color: #f84545;
+  color: #e1eef3;
+
+  white-space: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+outline: 0;
+cursor: pointer;
+
+  &:hover,
+  &:focus {
+    top: 2px;
+    position: relative;
+    -webkit-box-shadow: 0 3px #cc0000;
+    box-shadow: 0 3px #cc0000;
+    background: #f84545;
+  }
+
+  &:active {
+    -webkit-box-shadow: 0 0 #cc0000;
+    box-shadow: 0 0 #cc0000;
+    top: 5px;
+    background: #f84545;
+    border-color: #f84545;
+  }
+>>>>>>> 38e419a2b1b3b07e58492b8c2d149b410d376870
 }

@@ -43,6 +43,10 @@
     "eslint": "^2.8.0",
     "eslint-config-rtablada": "^1.0.1",
     "loader.js": "^4.0.1",
+<<<<<<< HEAD
     "sass-lint": "^1.6.2"
+=======
+    "sass-lint": "^1.6.1"
+>>>>>>> 38e419a2b1b3b07e58492b8c2d149b410d376870
   }
 }
