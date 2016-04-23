@@ -1,0 +1,65 @@
+{{outlet}}
+
+<h2 class="new-game-title">New Game</h2>
+<form {{action submitRun on="submit"}}>
+  <ul class="form-inputs">
+    {{input type="text" value=username class="new-game__input" placeholder="Username"}}
+    {{input type="text" value=numberOfPlayers class="new-game__input" placeholder="Number of Players"}}
+    {{input type="text" value=gameRules class="new-game__input" placeholder="Game Rules"}}
+  </ul>
+
+  <div class="form__buttons">
+    {{#link-to 'index'}}
+      <button class="form-button__cancel">Cancel</button>
+    {{/link-to}}
+    <button class="form-button__submit">Submit</button>
+  </div>
+</form>
+
+{{!-- <!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>`
+  <meta charset="utf-8">
+  <title>Start New Game</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+
+<body>
+
+  <div class="modal-container">
+    <div class="card">
+      <h1 class="card-title">Start New Game</h1>
+
+      <form class="new-game-form">
+
+        <div class="log-item">
+          <label class="log-item__label">Name</label>
+          <input class="log-item__input" placeholder="Player Name">
+        </div>
+
+        <div class="log-item">
+          <label class="log-item__label">Number of Players</label>
+          <input class="log-item__input" placeholder="playerNumber">
+        </div>
+
+        <div class="log-item">
+          <label class="log-item__label">Img SRC</label>
+          <input class="log-item__input" placeholder="Img SRC">
+        </div>
+
+        <div class="log-item">
+          <label class="log-item__label">Game Rules</label>
+          <input class="log-item__input" placeholder="Game Rules">
+        </div>
+
+      </form>
+
+      <div class="actions">
+        <button class="submit-button">Submit</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html> --}}

@@ -1,0 +1,94 @@
+// @import 'yoga';
+// @import 'normalize';
+
+// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+// @import 'font-awesome';
+$gutter: 1rem;
+$background-haze: rgba(0, 0, 0, 0.5);
+$brand-primary: #c2185b;
+$brand-white: #fdfdfd;
+$brand-grey: #8e8e8e;
+$brand-light-grey: lighten($brand-grey, 20%);
+
+$card-background: $brand-white;
+$input-color: $brand-grey;
+$label-color: $brand-white;
+$brand-border: 0.1rem solid $brand-grey;
+$brand-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+
+@import 'box-sizing';
+@import 'base';
+@import 'grid';
+
+.modal-container {
+  display: flex;
+}
+
+.card {
+  width: 65%;
+  margin: auto;
+  padding: 0;
+  background-color: $card-background;
+  box-shadow: $brand-shadow;
+}
+
+.card-title {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
+  color: #000000;
+}
+
+.new-game-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.log-item {
+  display: flex;
+  flex-direction: column;
+  margin: $gutter;
+  padding-bottom: 1em;
+  flex-grow: 1;
+}
+
+.log-item__label {
+  color: $brand-light-grey;
+}
+
+.log-item__input {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: $brand-border;
+  border-left: 0;
+  background: $brand-white;
+  font-size: 1.2rem;
+  &::-webkit-input-placeholder {
+    color: $input-color;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: $brand-border;
+  padding-left: .5em;
+}
+
+.submit-button {
+  font-size: 1rem;
+  border: 0;
+  border-radius: 0.2rem;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background: $brand-primary;
+  color: $brand-white;
+}

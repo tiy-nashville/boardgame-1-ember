@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('cards-against-humanity');
   this.route('clue');
   this.route('login');
+  this.route('form');
 });
 
 export default Router;
