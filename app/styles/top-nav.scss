@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   background: #02baf2;
-  border-bottom: 1.5px solid #fad46b;
+  box-shadow: 0 2px 5px #fad46b;
 }
 
 .site-name {
@@ -22,7 +22,7 @@
 .top-nav__right {
   display: flex;
   align-items: center;
-  width: 12rem;
+  width: 10rem;
   padding-right: 1rem;
   background: transparent;
 }
