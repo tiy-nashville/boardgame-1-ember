@@ -4,12 +4,12 @@
   align-items: center;
   justify-content: space-between;
   background: #02baf2;
-  border-bottom: 2px solid #a88cd5;
+  border-bottom: 1.5px solid #fad46b;
 }
 
 .site-name {
   padding-left: 1rem;
-  background: #02baf2;
+  background: transparent;
   color: #e1eef3;
 }
 
@@ -17,13 +17,13 @@
   display: flex;
   padding-right: 1rem;
   align-items: center;
-  background: #02baf2;
   width: 10rem;
+  background: transparent;
 }
 
 .fa-plus {
   padding-right: 1.5rem;
-  background: #02baf2;
+  background: transparent;
   color: #e1eef3;
 }
 
@@ -44,8 +44,13 @@
   border-color: #f84545;
   color: #e1eef3;
 
+  white-space: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+
   -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
   transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+outline: 0;
 
   &:hover,
   &:focus {
