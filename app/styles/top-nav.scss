@@ -22,20 +22,9 @@
 .top-nav__right {
   display: flex;
   align-items: center;
-  width: 10rem;
+  width: 12rem;
   padding-right: 1rem;
   background: transparent;
-}
-
-.fa-plus {
-  padding-right: 1.5rem;
-  background: transparent;
-  color: #e1eef3;
-  cursor: pointer;
-
-  &:hover {
-    color: #fad46b;
-  }
 }
 
 .login-button {
