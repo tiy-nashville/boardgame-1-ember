@@ -1,0 +1,38 @@
+.top-nav {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background: #02baf2;
+  border-bottom: 1px solid #a88cd5;
+}
+
+.site-name {
+  padding-left: 1rem;
+  background: #02baf2;
+  color: #e1eef3;
+}
+
+.top-nav__right {
+  padding-right: 1rem;
+  align-items: center;
+  background: #02baf2;
+}
+
+.fa-plus {
+  padding-right: 1.5rem;
+  background: #02baf2;
+  color: #e1eef3;
+}
+
+.login-button {
+  font-size: 16px;
+  width: 5rem;
+  -webkit-box-shadow: 0 5 #cc0000;
+  box-shadow: 0 5 #cc0000;
+  top: 7px;
+  font-size: 16px;
+  background: #f84545;
+  border-color: #f84545;
+  color: #e1eef3;
+}
