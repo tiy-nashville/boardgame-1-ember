@@ -11,10 +11,16 @@
   margin: 1rem;
 }
 
+.game-controls {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+}
 
 .game-logo {
-  padding-bottom: 2rem;
+  margin-bottom: 1.5rem;
   width: 100%;
+  box-shadow: 0 2px 5px #364347;
 }
 
 .game-page__text {
@@ -23,12 +29,45 @@
 }
 
 .button-checkout {
-  width: 7rem;
-  -webkit-box-shadow: 0 0 #28948c;
-  box-shadow: 0 0 #28948c;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 4px;
+  padding: 7px 15px 7px 15px;
+  text-transform: uppercase;
+
+  -webkit-box-shadow: 0 5px #9175bd;
+  box-shadow: 0 5px #9175bd;
   top: 7px;
   font-size: 16px;
-  background: #3eb5ac;
-  border-color: #3eb5ac;
-  color: white;
+  background: #a88cd5;
+  border-color: #a88cd5;
+  color: #e1eef3;
+
+  white-space: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+  outline: 0;
+  cursor: auto;
+
+  &:hover,
+  &:focus {
+    top: 2px;
+    position: relative;
+    -webkit-box-shadow: 0 3px #9175bd;
+    box-shadow: 0 3px #9175bd;
+    background: #a88cd5;
+  }
+
+  &:active {
+    -webkit-box-shadow: 0 0 #9175bd;
+    box-shadow: 0 0 #9175bd;
+    top: 5px;
+    background: #a88cd5;
+    border-color: #a88cd5;
+  }
 }
