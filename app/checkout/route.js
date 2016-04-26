@@ -1,7 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model(params) {
-    return this.store.findRecord(`game`, params.id);
+  model() {
+    return fetch(`http://8cb7cf5b.ngrok.io/checkout-game`)
+    .then(res => res.json());
   },
 });

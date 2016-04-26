@@ -28,6 +28,14 @@
   margin: 1rem;
 }
 
+.fa-circle {
+  color: #3eb5ac;
+
+  &:active {
+    color: #f84545;
+  }
+}
+
 .button-checkout {
   width: 100%;
   border: 1px solid transparent;
