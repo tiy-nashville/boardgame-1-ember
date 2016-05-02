@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('cah');
   this.route('add-game');
   this.route('checkout');
+  this.route('form');
 });
 
 export default Router;
